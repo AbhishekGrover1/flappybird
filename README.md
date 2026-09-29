@@ -6,6 +6,11 @@ This repository has two parts that share one game but run independently:
 2. **A Deep Q-Network (DQN) research project** — a from-scratch PyTorch agent that learns to play Flappy Bird via reinforcement learning (`agent.py`, `dqn.py`), plus **Q-Learning** and **SARSA** notebooks on the Cliff Walking environment. This runs locally/offline; it is not part of the deployed web app.
 
 ---
+<a href="https://flappybird-8udg.onrender.com">
+  <img src="https://img.shields.io/badge/Play-Game-2EA043?style=flat-square" height="40">
+<img src="https://img.shields.io/badge/python-3.12-3776AB?style=flat-square" height="40">
+<img src="https://img.shields.io/badge/pygame-2.5-F5D415?style=flat-square" height="40">
+<img src="https://img.shields.io/badge/license-MIT-7C3AED?style=flat-square" height="40">
 
 ## 🎮 Play It
 
