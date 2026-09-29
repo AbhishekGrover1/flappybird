@@ -1,0 +1,74 @@
+:root{
+  --bg: #12141a;
+  --surface: #1c1f29;
+  --border: #2a2e3b;
+  --text: #e8e6e0;
+  --text-muted: #8b8e9c;
+  --accent: #e3a857;
+  --accent-soft: rgba(227,168,87,0.14);
+}
+*{ box-sizing: border-box; }
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--text);
+  font-family:'IBM Plex Mono', ui-monospace, monospace;
+  display:flex;
+  justify-content:center;
+  padding:28px 20px 32px;
+  line-height:1.6;
+}
+/* The column is sized so the whole 9:16 game fits on screen without scrolling. */
+.page{
+  width:100%;
+  max-width: clamp(280px, calc((100vh - 170px) * 0.5625), 420px);
+  max-width: clamp(280px, calc((100dvh - 170px) * 0.5625), 420px);
+}
+h1{
+  font-family:'Fraunces', Georgia, serif;
+  font-weight:600;
+  font-size:clamp(26px, 5vw, 32px);
+  line-height:1.15;
+  margin:0 0 6px;
+  letter-spacing:-0.01em;
+}
+.subhead{
+  color:var(--text-muted);
+  font-size:13px;
+  margin:0 0 18px;
+}
+#game{
+  display:block;
+  width:100%;
+  aspect-ratio: 9 / 16;
+  border-radius:14px;
+  border:1px solid var(--border);
+  box-shadow: 0 0 0 1px var(--accent-soft), 0 20px 60px -20px rgba(0,0,0,0.6);
+  background:#7fd6dc;
+  cursor:pointer;
+  touch-action:none;
+  user-select:none;
+  -webkit-user-select:none;
+  -webkit-tap-highlight-color:transparent;
+}
+noscript p{ color:var(--text-muted); font-size:13px; }
+  footer{
+    margin-top:32px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:12px;
+    font-size:12px;
+    color:var(--text-muted);
+  }
+  footer .links{ display:flex; gap:10px; }
+  footer a{
+    color:var(--text);
+    text-decoration:none;
+    border:1px solid var(--border);
+    border-radius:8px;
+    padding:6px 12px;
+    transition: border-color 0.15s ease, color 0.15s ease;
+  }
+  footer a:hover{ border-color:var(--accent); color:var(--accent); }
