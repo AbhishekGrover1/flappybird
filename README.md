@@ -16,7 +16,7 @@ This repository has two parts that share one game but run independently:
 
 Press **Space** or **⬆ Arrow** to flap. Click or tap works too. Score goes up by exactly 1 each time you clear a pair of pipes. Hit a pipe or the ground and it's Game Over — press the flap key again to start a new run.
 
-**Live:** _add your Render URL here after deploying (see "Deploying to Render" below)_
+**Live:** https://flappybird-8udg.onrender.com
 
 Run it locally without installing anything but a browser:
 
