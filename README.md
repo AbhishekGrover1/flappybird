@@ -1,4 +1,4 @@
-# 🐦 Flappy Bird — Classic Game + Deep Q-Network Research
+# 🐦 ***Flappy Bird — Classic Game + Deep Q-Network Research***
 
 This repository has two parts that share one game but run independently:
 
