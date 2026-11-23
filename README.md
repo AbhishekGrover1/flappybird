@@ -29,7 +29,7 @@ Then open `http://127.0.0.1:8000`.
 
 ---
 
-## 📌 Project Overview
+## 📌 Project Overviews
 
 The playable game (`static/index.html`, `style.css`, `script.js`) is a self-contained implementation of classic Flappy Bird:
 
